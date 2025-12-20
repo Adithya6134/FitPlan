@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitPlan - Your Weekly Workout</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">FitPlan</div>
+        <ul class="nav-links">
+            <li><a href="#routines">Routines</a></li>
+            <li><a href="#schedule">Weekly Plan</a></li>
+            <li><a href="#calculate">BMI Calculator</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1>Forge Your Best Self</h1>
+        <p>Plan your workouts, track your progress, and stay consistent.</p>
+        <a href="#schedule" class="btn">View Schedule</a>
+    </header>
+
+    <section id="routines" class="container">
+        <h2>Popular Routines</h2>
+        <div class="card-grid">
+            <div class="card">
+                <img src="C:\Users\Lenovo\Desktop\fitness website\images\strength.jpg" alt="Weight Training">
+                <h3>Strength Training</h3>
+                <p>Build muscle with heavy compound lifts.</p>
+            </div>
+            <div class="card">
+                <img src="C:\Users\Lenovo\Desktop\fitness website\images\cardio.jpg" alt="Cardio">
+                <h3>HIIT Cardio</h3>
+                <p>Burn fat fast with high intensity intervals.</p>
+            </div>
+            <div class="card">
+                <img src="C:\Users\Lenovo\Desktop\fitness website\images\stretching.jpg" alt="Yoga">
+                <h3>Flexibility & Yoga</h3>
+                <p>Improve mobility and core strength.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="container">
+        <h2>Your Weekly Schedule</h2>
+        <table class="workout-table">
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Muscle Group</th>
+                    <th>Duration</th>
+                    <th>Intensity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>Chest & Triceps</td>
+                    <td>60 mins</td>
+                    <td class="high">High</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Back & Biceps</td>
+                    <td>60 mins</td>
+                    <td class="high">High</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Active Rest / Yoga</td>
+                    <td>30 mins</td>
+                    <td class="low">Low</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>Legs & Shoulders</td>
+                    <td>75 mins</td>
+                    <td class="high">High</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Full Body HIIT</td>
+                    <td>45 mins</td>
+                    <td class="med">Medium</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="calculate" class="container">
+        <h2>BMI Calculator</h2>
+        <div class="form-box">
+            <form id="bmiForm">
+                <label>Weight (kg):</label>
+                <input type="number" id="weight" placeholder="e.g. 70" required>
+                
+                <label>Height (cm):</label>
+                <input type="number" id="height" placeholder="e.g. 175" required>
+                
+                <button type="submit" class="btn">Calculate BMI</button>
+            </form>
+            <div id="result"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 FitPlan Project. Built for Web Dev Class.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
