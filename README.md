@@ -1,2 +1,2 @@
 # FitPlan
-A school project creating a webpage  "FitPlan"
+A college project creating a webpage  "FitPlan"
